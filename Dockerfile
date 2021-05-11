@@ -3,7 +3,7 @@ FROM public.ecr.aws/ubuntu/ubuntu:20.04
 EXPOSE 8555
 EXPOSE 8444
 
-ENV VERSION=1.1.2
+ENV VERSION=1.1.5
 
 COPY docker-entrypoint.sh /usr/local/bin
 COPY healthcheck.sh /usr/local/bin
